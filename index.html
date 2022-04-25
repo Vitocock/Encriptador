@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Mensajes</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <header>
+        <h1>Encriptador / Desencriptador</h1>
+    </header>
+
+    <main>
+        
+        <section class="section-input">
+            <h3 class="title">Ingrese un oracion para encriptar o desencriptar: </h3>
+            <textarea name="input" id="input" cols="30" rows="10" class="input" placeholder="Ingrese la oracion que desee encriptar..."></textarea>
+        </section>
+        <div class="div-botones">
+            <button id="encriptar" class="boton">Encriptar</button>
+            <button id="desencriptar" class="boton">Desencriptar</button>
+        </div>
+    
+        <section class="section-output">
+            <h3 class="title">Texto Encriptado: </h1>
+            <h5 class="title ocultar" style="text-align: right; padding-right: 10%;" id="copiado">Texto Copiado!</h5>
+            <p class="output" id="output">
+                No has desencriptado ningun mensaje.
+                
+            </p>
+            <button class="boton-copiar" id="copiar">Copiar</button>
+            
+        </section>
+    </main>
+    
+    <script src="./js/desencriptar.js"></script>
+    <script src="./js/encriptar.js"></script>
+    <script src="./js/copiar.js"></script>
+</body>
+
+</html>

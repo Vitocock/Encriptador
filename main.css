@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+
+    padding: 2%;
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    
+    font-size: 150%;
+}
+
+html,body{
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+main {
+    height: 90%;
+    width: auto;
+}
+
+.section-input{
+    height: 20%;
+    width: 92%;
+    margin: 2%;
+    display: inline-block;
+}
+ 
+.section-output{
+    width: 92%;
+    height: auto;
+    margin: 2%;
+    display: inline-block;
+}
+.output {
+    border: none;
+    border-radius: 1%;
+    background-color:beige;
+    font-size: 200%;
+    width: 60%;
+    display: inline-block;
+    padding: 2%;
+    word-wrap:break-word;
+}
+
+.input {
+    border: none;
+    border-radius: 1%;
+    background-color:beige;
+    font-size: 175%;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.div-botones {
+    display: inline;
+    width: 100%;
+
+}
+
+.boton {
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5%;
+    margin: 1% 12%;
+    padding: 1%;
+    width: 25%;
+    display: inline;
+    font-size: 150%;
+}
+
+.boton-copiar{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5%;
+    margin: 1% 10%;
+    padding: 1%;
+    width: 15%;
+    display: inline;
+    font-size: 150%;
+    position: absolute;
+}
+.title  {
+    margin: 1% 0 ;
+    font-size: 150%;
+}
+
+.ocultar {
+    display: none;
+}
+
