@@ -5,29 +5,43 @@
     text-align: center;
 
     width:fit-content;
-    height: 50%;
+    height: 60%;
     border-radius: 1%;
     padding: 1%;
    
 }
 
 .calculadora__input{
+    background-color:cadetblue;
+    color:limegreen;
     margin: 1% auto ;
     width: 95%;
     display: inline-block;
     padding: 1%;
     font-size: 200%;
     text-align: right;
+    border-radius: 1%;
 }
 .buttons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 100%;
+    height: 86%;
     margin: 1%;
 }
 
-.button, .button__op, .button__res{
+.button, .button__op, .button__res, .button__del{
+    background-color:azure;
+    border-radius: 3%;
     font-size: 200%;
     margin: 1%;
+}
 
+.button__res{
+    grid-column: 2/4;
+    background-color:darkorchid;
+}
+
+.button__del {
+    background-color: crimson;
+    grid-column: 1/2;
 }
