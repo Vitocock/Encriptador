@@ -8,11 +8,41 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/calculadora.css">
 </head>
-<body>
-    <ul>
-        <li><a href="/">Encripador</a></li>
-        <li><a href="./calculadora.html">Calculadora</a></li>
-    </ul>
-    
+<body style="text-align: center;">
+    <header>
+        <h1>Calculadora</h1>
+        <button>=</button>
+        <ul class="ocultar">
+            <li><a href="/">Encriptador</a></li>
+            <li><a href="./calculadora.html">Calculadora</a></li>
+        </ul>
+    </header>
+
+    <div class="calculadora">
+        <input type="text" name="" class="calculadora__input" id="calculadora__input" disabled>
+        <div class="buttons">
+            <button value="9" class="button">9</button>
+            <button value="8" class="button">8</button>
+            <button value="7" class="button">7</button>
+            <button value="6" class="button">6</button>
+            <button value="5" class="button">5</button>
+            <button value="4" class="button">4</button>
+            <button value="3" class="button">3</button>
+            <button value="2" class="button">2</button>
+            <button value="1" class="button">1</button>
+            
+            <button class="button" value=" + ">+</button>
+            <button value="0" class="button">0</button>
+            <button class="button" value=" - ">-</button>
+            <button class="button" value=" X ">X</button>
+            <button class="button__res" id="button__res">=</button>
+            <button class="button" value=" / ">/</button>
+            
+
+            
+            
+        </div>
+    </div>
+    <script src="./js/calculadora.js"></script>
 </body>
 </html>
