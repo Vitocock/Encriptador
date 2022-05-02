@@ -1,4 +1,6 @@
 let botonEncriptar = document.getElementById('encriptar');
+let input = document.getElementById('input');
+input.value = `Mensaje Encriptado de la Anterior Sesion: ${localStorage.getItem('mensajeGuardado')}` || ''
 
 const encriptar = (string) => {
     string = string.split('e').join('enter');
@@ -23,4 +25,6 @@ botonEncriptar.addEventListener('click', (event) => {
     let aviso = document.getElementById('copiado')
 
     aviso.classList.add('ocultar')
+
+    localStorage.setItem('mensajeGuardado', inputValue)
 })
