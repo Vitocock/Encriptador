@@ -1,6 +1,6 @@
 let botonEncriptar = document.getElementById('encriptar');
 let input = document.getElementById('input');
-input.value = `Mensaje Encriptado de la Anterior Sesion: ${localStorage.getItem('mensajeGuardado')}` || ''
+input.value = localStorage.getItem('mensajeGuardado') == null ? '' : `Mensaje Encriptado de la Anterior Sesion: ${localStorage.getItem('mensajeGuardado')}`
 
 const encriptar = (string) => {
     string = string.split('e').join('enter');
